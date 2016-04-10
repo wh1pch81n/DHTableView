@@ -13,6 +13,8 @@
 		2F24F21E1CB9EF4D00C0AA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F21D1CB9EF4D00C0AA10 /* Assets.xcassets */; };
 		2F24F2211CB9EF4D00C0AA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F21F1CB9EF4D00C0AA10 /* LaunchScreen.storyboard */; };
 		2F24F22C1CB9EF4D00C0AA10 /* DHTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24F22B1CB9EF4D00C0AA10 /* DHTableViewTests.swift */; };
+		2F24F2371CB9F80F00C0AA10 /* DHCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F2361CB9F80F00C0AA10 /* DHCell.xib */; };
+		2F24F2391CB9F81C00C0AA10 /* DHCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24F2381CB9F81C00C0AA10 /* DHCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2F24F2271CB9EF4D00C0AA10 /* DHTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F24F22B1CB9EF4D00C0AA10 /* DHTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHTableViewTests.swift; sourceTree = "<group>"; };
 		2F24F22D1CB9EF4D00C0AA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F24F2361CB9F80F00C0AA10 /* DHCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHCell.xib; sourceTree = "<group>"; };
+		2F24F2381CB9F81C00C0AA10 /* DHCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				2F24F2161CB9EF4D00C0AA10 /* AppDelegate.swift */,
 				2F24F2181CB9EF4D00C0AA10 /* ViewController.swift */,
+				2F24F2361CB9F80F00C0AA10 /* DHCell.xib */,
+				2F24F2381CB9F81C00C0AA10 /* DHCell.swift */,
 				2F24F21A1CB9EF4D00C0AA10 /* Main.storyboard */,
 				2F24F21D1CB9EF4D00C0AA10 /* Assets.xcassets */,
 				2F24F21F1CB9EF4D00C0AA10 /* LaunchScreen.storyboard */,
@@ -180,6 +186,7 @@
 				2F24F2211CB9EF4D00C0AA10 /* LaunchScreen.storyboard in Resources */,
 				2F24F21E1CB9EF4D00C0AA10 /* Assets.xcassets in Resources */,
 				2F24F21C1CB9EF4D00C0AA10 /* Main.storyboard in Resources */,
+				2F24F2371CB9F80F00C0AA10 /* DHCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F24F2191CB9EF4D00C0AA10 /* ViewController.swift in Sources */,
+				2F24F2391CB9F81C00C0AA10 /* DHCell.swift in Sources */,
 				2F24F2171CB9EF4D00C0AA10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
