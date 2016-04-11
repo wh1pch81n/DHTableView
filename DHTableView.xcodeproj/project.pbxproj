@@ -13,8 +13,14 @@
 		2F24F21E1CB9EF4D00C0AA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F21D1CB9EF4D00C0AA10 /* Assets.xcassets */; };
 		2F24F2211CB9EF4D00C0AA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F21F1CB9EF4D00C0AA10 /* LaunchScreen.storyboard */; };
 		2F24F22C1CB9EF4D00C0AA10 /* DHTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24F22B1CB9EF4D00C0AA10 /* DHTableViewTests.swift */; };
-		2F24F2371CB9F80F00C0AA10 /* DHCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F2361CB9F80F00C0AA10 /* DHCell.xib */; };
-		2F24F2391CB9F81C00C0AA10 /* DHCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24F2381CB9F81C00C0AA10 /* DHCell.swift */; };
+		2F4BB76D1CBACEBE007641AB /* DesignableViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4BB76C1CBACEBE007641AB /* DesignableViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4BB7741CBACEBE007641AB /* DesignableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4BB76A1CBACEBE007641AB /* DesignableViews.framework */; };
+		2F4BB77B1CBACEBE007641AB /* DesignableViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BB77A1CBACEBE007641AB /* DesignableViewsTests.swift */; };
+		2F4BB77F1CBACEBE007641AB /* DesignableViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4BB76A1CBACEBE007641AB /* DesignableViews.framework */; };
+		2F4BB7801CBACEBE007641AB /* DesignableViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4BB76A1CBACEBE007641AB /* DesignableViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2F4BB7881CBACEC9007641AB /* DHTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BB7631CBACEA4007641AB /* DHTableView.swift */; };
+		2F4BB7891CBAD01B007641AB /* DHCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F24F2361CB9F80F00C0AA10 /* DHCell.xib */; };
+		2F4BB78A1CBAD02A007641AB /* DHCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24F2381CB9F81C00C0AA10 /* DHCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +31,42 @@
 			remoteGlobalIDString = 2F24F2121CB9EF4D00C0AA10;
 			remoteInfo = DHTableView;
 		};
+		2F4BB7751CBACEBE007641AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F24F20B1CB9EF4D00C0AA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F4BB7691CBACEBE007641AB;
+			remoteInfo = DesignableViews;
+		};
+		2F4BB7771CBACEBE007641AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F24F20B1CB9EF4D00C0AA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F24F2121CB9EF4D00C0AA10;
+			remoteInfo = DHTableView;
+		};
+		2F4BB77D1CBACEBE007641AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F24F20B1CB9EF4D00C0AA10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F4BB7691CBACEBE007641AB;
+			remoteInfo = DesignableViews;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F4BB7841CBACEBE007641AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2F4BB7801CBACEBE007641AB /* DesignableViews.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2F24F2131CB9EF4D00C0AA10 /* DHTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +81,13 @@
 		2F24F22D1CB9EF4D00C0AA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F24F2361CB9F80F00C0AA10 /* DHCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHCell.xib; sourceTree = "<group>"; };
 		2F24F2381CB9F81C00C0AA10 /* DHCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHCell.swift; sourceTree = "<group>"; };
+		2F4BB7631CBACEA4007641AB /* DHTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DHTableView.swift; sourceTree = "<group>"; };
+		2F4BB76A1CBACEBE007641AB /* DesignableViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignableViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4BB76C1CBACEBE007641AB /* DesignableViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignableViews.h; sourceTree = "<group>"; };
+		2F4BB76E1CBACEBE007641AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F4BB7731CBACEBE007641AB /* DesignableViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignableViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4BB77A1CBACEBE007641AB /* DesignableViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableViewsTests.swift; sourceTree = "<group>"; };
+		2F4BB77C1CBACEBE007641AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4BB77F1CBACEBE007641AB /* DesignableViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +103,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BB7661CBACEBE007641AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BB7701CBACEBE007641AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BB7741CBACEBE007641AB /* DesignableViews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +129,8 @@
 			children = (
 				2F24F2151CB9EF4D00C0AA10 /* DHTableView */,
 				2F24F22A1CB9EF4D00C0AA10 /* DHTableViewTests */,
+				2F4BB76B1CBACEBE007641AB /* DesignableViews */,
+				2F4BB7791CBACEBE007641AB /* DesignableViewsTests */,
 				2F24F2141CB9EF4D00C0AA10 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +140,8 @@
 			children = (
 				2F24F2131CB9EF4D00C0AA10 /* DHTableView.app */,
 				2F24F2271CB9EF4D00C0AA10 /* DHTableViewTests.xctest */,
+				2F4BB76A1CBACEBE007641AB /* DesignableViews.framework */,
+				2F4BB7731CBACEBE007641AB /* DesignableViewsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +154,7 @@
 				2F24F2361CB9F80F00C0AA10 /* DHCell.xib */,
 				2F24F2381CB9F81C00C0AA10 /* DHCell.swift */,
 				2F24F21A1CB9EF4D00C0AA10 /* Main.storyboard */,
+				2F4BB7631CBACEA4007641AB /* DHTableView.swift */,
 				2F24F21D1CB9EF4D00C0AA10 /* Assets.xcassets */,
 				2F24F21F1CB9EF4D00C0AA10 /* LaunchScreen.storyboard */,
 				2F24F2221CB9EF4D00C0AA10 /* Info.plist */,
@@ -102,7 +171,36 @@
 			path = DHTableViewTests;
 			sourceTree = "<group>";
 		};
+		2F4BB76B1CBACEBE007641AB /* DesignableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BB76C1CBACEBE007641AB /* DesignableViews.h */,
+				2F4BB76E1CBACEBE007641AB /* Info.plist */,
+			);
+			path = DesignableViews;
+			sourceTree = "<group>";
+		};
+		2F4BB7791CBACEBE007641AB /* DesignableViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F4BB77A1CBACEBE007641AB /* DesignableViewsTests.swift */,
+				2F4BB77C1CBACEBE007641AB /* Info.plist */,
+			);
+			path = DesignableViewsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F4BB7671CBACEBE007641AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BB76D1CBACEBE007641AB /* DesignableViews.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		2F24F2121CB9EF4D00C0AA10 /* DHTableView */ = {
@@ -112,10 +210,12 @@
 				2F24F20F1CB9EF4D00C0AA10 /* Sources */,
 				2F24F2101CB9EF4D00C0AA10 /* Frameworks */,
 				2F24F2111CB9EF4D00C0AA10 /* Resources */,
+				2F4BB7841CBACEBE007641AB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2F4BB77E1CBACEBE007641AB /* PBXTargetDependency */,
 			);
 			name = DHTableView;
 			productName = DHTableView;
@@ -140,6 +240,43 @@
 			productReference = 2F24F2271CB9EF4D00C0AA10 /* DHTableViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		2F4BB7691CBACEBE007641AB /* DesignableViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4BB7811CBACEBE007641AB /* Build configuration list for PBXNativeTarget "DesignableViews" */;
+			buildPhases = (
+				2F4BB7651CBACEBE007641AB /* Sources */,
+				2F4BB7661CBACEBE007641AB /* Frameworks */,
+				2F4BB7671CBACEBE007641AB /* Headers */,
+				2F4BB7681CBACEBE007641AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesignableViews;
+			productName = DesignableViews;
+			productReference = 2F4BB76A1CBACEBE007641AB /* DesignableViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2F4BB7721CBACEBE007641AB /* DesignableViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F4BB7851CBACEBE007641AB /* Build configuration list for PBXNativeTarget "DesignableViewsTests" */;
+			buildPhases = (
+				2F4BB76F1CBACEBE007641AB /* Sources */,
+				2F4BB7701CBACEBE007641AB /* Frameworks */,
+				2F4BB7711CBACEBE007641AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F4BB7761CBACEBE007641AB /* PBXTargetDependency */,
+				2F4BB7781CBACEBE007641AB /* PBXTargetDependency */,
+			);
+			name = DesignableViewsTests;
+			productName = DesignableViewsTests;
+			productReference = 2F4BB7731CBACEBE007641AB /* DesignableViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +291,13 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					2F24F2261CB9EF4D00C0AA10 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2F24F2121CB9EF4D00C0AA10;
+					};
+					2F4BB7691CBACEBE007641AB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2F4BB7721CBACEBE007641AB = {
 						CreatedOnToolsVersion = 7.3;
 						TestTargetID = 2F24F2121CB9EF4D00C0AA10;
 					};
@@ -174,6 +318,8 @@
 			targets = (
 				2F24F2121CB9EF4D00C0AA10 /* DHTableView */,
 				2F24F2261CB9EF4D00C0AA10 /* DHTableViewTests */,
+				2F4BB7691CBACEBE007641AB /* DesignableViews */,
+				2F4BB7721CBACEBE007641AB /* DesignableViewsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,11 +332,25 @@
 				2F24F2211CB9EF4D00C0AA10 /* LaunchScreen.storyboard in Resources */,
 				2F24F21E1CB9EF4D00C0AA10 /* Assets.xcassets in Resources */,
 				2F24F21C1CB9EF4D00C0AA10 /* Main.storyboard in Resources */,
-				2F24F2371CB9F80F00C0AA10 /* DHCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2F24F2251CB9EF4D00C0AA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BB7681CBACEBE007641AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BB7891CBAD01B007641AB /* DHCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BB7711CBACEBE007641AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,7 +365,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F24F2191CB9EF4D00C0AA10 /* ViewController.swift in Sources */,
-				2F24F2391CB9F81C00C0AA10 /* DHCell.swift in Sources */,
 				2F24F2171CB9EF4D00C0AA10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,6 +377,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2F4BB7651CBACEBE007641AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BB7881CBACEC9007641AB /* DHTableView.swift in Sources */,
+				2F4BB78A1CBAD02A007641AB /* DHCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F4BB76F1CBACEBE007641AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BB77B1CBACEBE007641AB /* DesignableViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -225,6 +401,21 @@
 			isa = PBXTargetDependency;
 			target = 2F24F2121CB9EF4D00C0AA10 /* DHTableView */;
 			targetProxy = 2F24F2281CB9EF4D00C0AA10 /* PBXContainerItemProxy */;
+		};
+		2F4BB7761CBACEBE007641AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F4BB7691CBACEBE007641AB /* DesignableViews */;
+			targetProxy = 2F4BB7751CBACEBE007641AB /* PBXContainerItemProxy */;
+		};
+		2F4BB7781CBACEBE007641AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F24F2121CB9EF4D00C0AA10 /* DHTableView */;
+			targetProxy = 2F4BB7771CBACEBE007641AB /* PBXContainerItemProxy */;
+		};
+		2F4BB77E1CBACEBE007641AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F4BB7691CBACEBE007641AB /* DesignableViews */;
+			targetProxy = 2F4BB77D1CBACEBE007641AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -335,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DHTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dnthome.DHTableView;
@@ -346,6 +538,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = DHTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dnthome.DHTableView;
@@ -377,6 +570,68 @@
 			};
 			name = Release;
 		};
+		2F4BB7821CBACEBE007641AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DesignableViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnthome.DesignableViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2F4BB7831CBACEBE007641AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DesignableViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnthome.DesignableViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2F4BB7861CBACEBE007641AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesignableViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnthome.DesignableViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHTableView.app/DHTableView";
+			};
+			name = Debug;
+		};
+		2F4BB7871CBACEBE007641AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesignableViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnthome.DesignableViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DHTableView.app/DHTableView";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -396,12 +651,30 @@
 				2F24F2321CB9EF4D00C0AA10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F24F2331CB9EF4D00C0AA10 /* Build configuration list for PBXNativeTarget "DHTableViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2F24F2341CB9EF4D00C0AA10 /* Debug */,
 				2F24F2351CB9EF4D00C0AA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F4BB7811CBACEBE007641AB /* Build configuration list for PBXNativeTarget "DesignableViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4BB7821CBACEBE007641AB /* Debug */,
+				2F4BB7831CBACEBE007641AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F4BB7851CBACEBE007641AB /* Build configuration list for PBXNativeTarget "DesignableViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4BB7861CBACEBE007641AB /* Debug */,
+				2F4BB7871CBACEBE007641AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -13,26 +13,15 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="DHTableView" customModule="DesignableViews">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FOB-S6-YB2" customClass="DHTableView" customModule="DHTableView" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </tableView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="FOB-S6-YB2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DBa-G7-wHO"/>
-                            <constraint firstItem="FOB-S6-YB2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MFX-Jj-9bJ"/>
-                            <constraint firstAttribute="trailing" secondItem="FOB-S6-YB2" secondAttribute="trailing" id="fCj-En-Gz1"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FOB-S6-YB2" secondAttribute="bottom" id="q6u-fD-iLJ"/>
-                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="nil" keyPath="exampleDataSource"/>
+                        </userDefinedRuntimeAttributes>
                     </view>
-                    <connections>
-                        <outlet property="tableView" destination="FOB-S6-YB2" id="9Sy-cq-pjP"/>
-                    </connections>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
